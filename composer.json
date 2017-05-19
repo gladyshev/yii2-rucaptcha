@@ -1,0 +1,40 @@
+{
+  "name": "gladyshev/yii2-rucaptcha",
+  "description": "Yii2 rucaptcha.com captcha recognition extension.",
+  "type": "yii2-extension",
+  "keywords": ["yii", "rucaptcha", "anticaptcha"],
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Dmitry Gladyshev",
+      "email": "deel@email.ru"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/gladyshev/yii2-rucaptcha/issues",
+    "source": "https://github.com/gladyshev/yii2-rucaptcha"
+  },
+  "require": {
+    "php": ">=5.5.0",
+    "yiisoft/yii2": "*",
+    "gladyshev/rucaptcha-client": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "gladyshev\\yii\\rucaptcha\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "gladyshev\\yii\\rucaptcha\\test\\": "test/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.x-dev"
+    }
+  }
+}
