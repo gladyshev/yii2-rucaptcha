@@ -2,7 +2,7 @@ Yii2 Rucaptcha Extension
 ========================
 
 An extension for resolving captcha with [Rucaptcha.com](https://rucaptcha.com/?from=1342124). 
-It is just wrapper of [gladyshev\rucaptcha-client](https://github.com/gladyshev/rucaptcha-client).
+It's just a wrapped [gladyshev\rucaptcha-client](https://github.com/gladyshev/rucaptcha-client) library.
 
 Rucaptcha API documentation is at [official page](https://rucaptcha.com/api-rucaptcha?from=1342124).
 
@@ -34,9 +34,9 @@ Setup `rucaptcha` component in your configuration file:
     'components' => [
         ...
         'rucaptcha' => [
-            'apiKey' => '',
+            'apiKey' => getenv('__RUCAPTCHA_KEY__'),
             'options' => [
-                'verbose' => YII_DEBUG === true
+                'verbose' => (YII_DEBUG === true)
             ]
         ],
         ...
