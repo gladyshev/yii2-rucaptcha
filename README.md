@@ -6,6 +6,9 @@ It's just a wrapped [gladyshev\rucaptcha-client](https://github.com/gladyshev/ru
 
 Rucaptcha API documentation is at [official page](https://rucaptcha.com/api-rucaptcha?from=1342124).
 
+[![Build Status](https://travis-ci.org/gladyshev/yii2-rucaptcha.svg?branch=master)](https://travis-ci.org/gladyshev/yii2-rucaptcha)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/gladyshev/yii2-rucaptcha/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/gladyshev/yii2-rucaptcha/?branch=master)
+
 Installation
 ------------
 
