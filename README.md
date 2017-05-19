@@ -37,6 +37,7 @@ Setup `rucaptcha` component in your configuration file:
     'components' => [
         ...
         'rucaptcha' => [
+            'class' => 'gladyshev\yii\rucaptcha\Rucaptcha',
             'apiKey' => getenv('__RUCAPTCHA_KEY__'),
             'options' => [
                 'verbose' => (YII_DEBUG === true)
