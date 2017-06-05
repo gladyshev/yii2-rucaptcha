@@ -2,7 +2,7 @@
   "name": "gladyshev/yii2-rucaptcha",
   "description": "Yii2 rucaptcha.com captcha recognition extension.",
   "type": "yii2-extension",
-  "keywords": ["yii", "rucaptcha", "anticaptcha"],
+  "keywords": ["yii", "yii2", "rucaptcha", "anticaptcha", "extension"],
   "license": "BSD-3-Clause",
   "authors": [
     {
