@@ -15,9 +15,9 @@
     "source": "https://github.com/gladyshev/yii2-rucaptcha"
   },
   "require": {
-    "php": ">=5.6.0",
-    "yiisoft/yii2": "*",
-    "gladyshev/rucaptcha-client": "*"
+    "php": ">=5.6",
+    "yiisoft/yii2": "~2.0",
+    "gladyshev/rucaptcha-client": "~1.2"
   },
   "require-dev": {
     "phpunit/phpunit": "~5.7"
