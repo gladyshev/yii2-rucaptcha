@@ -17,7 +17,7 @@
   "require": {
     "php": ">=5.6",
     "yiisoft/yii2": "~2.0",
-    "gladyshev/rucaptcha-client": "~1.2"
+    "gladyshev/rucaptcha-client": "~1.3"
   },
   "require-dev": {
     "phpunit/phpunit": "~5.7"
