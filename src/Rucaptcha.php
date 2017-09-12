@@ -24,6 +24,8 @@ use yii\base\Component;
  * @method int sendRecapthaV2($googleKey, $pageUrl, $extra = [])
  * @method string recognizeRecapthaV2($googleKey, $pageUrl, $extra = [])
  * @method string getLastCaptchaId()
+ * @method string sendKeyCaptcha($SSCUserId, $SSCSessionId, $SSCWebServerSign, $SSCWebServerSign2, $pageUrl, $extra = [])
+ * @method string recognizeKeyCaptcha($SSCUserId, $SSCSessionId, $SSCWebServerSign, $SSCWebServerSign2, $pageUrl, $extra = [])
  * @method string getBalance()
  * @method bool badCaptcha(string $captchaId)
  * @method array getLoad(array $paramsList = [])
